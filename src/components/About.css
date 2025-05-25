@@ -1,0 +1,16 @@
+.about-container {
+    height: auto;
+    max-width: 90%;
+}
+
+.about-text {
+    line-height: 1.8vw 2.5vh;
+    font-size: clamp(0.9rem,2.2vw,2.4vh);
+}
+
+@media (max-height:400px){
+    .about-text {
+    line-height: 15px;
+    font-size: 12px;
+}
+}

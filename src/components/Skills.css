@@ -1,0 +1,35 @@
+@media (max-width:300px) {
+    #skill-container {
+        height: 100%;
+    }
+}
+
+.title {
+    font-size: clamp(1.2rem,2.2vw,2rem);
+}
+
+.html, .bs, .react-bs, .git, .canva, .logos, .vs-code, .figma {
+    margin-left: 2vw;
+    transition: 0.3s ease-in-out;
+}
+
+.logos {
+    margin-top: -0.1rem;
+}
+
+.bs {
+    margin-top: -0.6rem;
+}
+
+.figma {
+    margin-top: 0.1rem;
+}
+
+.vs-code {
+    margin-top: -0.3rem;
+}
+
+.html:hover, .logos:hover, .bs:hover, .react-bs:hover,
+.git:hover, .canva:hover, .vs-code:hover, .figma:hover {
+    transform: scale(1.2,1.2);
+}

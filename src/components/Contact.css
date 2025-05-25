@@ -1,0 +1,25 @@
+#validateName {
+    width: clamp(1rem,60vw,22rem);
+}
+
+#validateEmail {
+    width: clamp(1rem,60vw,22rem);
+}
+
+
+#validateMessage {
+    width: clamp(1rem,60vw,22rem);
+    height: 100px;
+}
+
+#validateName, #validateEmail,#validateMessage, .form-title {
+  margin-bottom: clamp(1rem,6vh,5rem);
+}
+
+.form-container {
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.088);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

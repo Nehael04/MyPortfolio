@@ -1,0 +1,18 @@
+
+.card-container {
+    height: auto;
+    max-width: 100%;
+    box-shadow: 4px 4px 15px rgb(1, 0, 0),
+    4px 4px 10px rgba(128, 128, 128, 0.482);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.088);
+    color: white;
+}
+
+.card-title {
+    font-size: clamp(1rem,3vw,1.3rem);
+}
+
+.card-text {
+    font-size: clamp(0.8rem,3vw,1rem);
+}

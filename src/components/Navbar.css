@@ -1,0 +1,79 @@
+.dp-container {
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  background-image: conic-gradient(rgb(255, 0, 204),rgb(64, 0, 255),rgb(255, 0, 204));
+  border-radius: 1rem;
+  padding: 0.1rem;
+  position: relative;
+}
+
+.dp-container::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: conic-gradient(rgb(255, 0, 204),rgb(64, 0, 255),rgb(255, 0, 204));
+  filter: blur(10px);
+  z-index: 0;
+  border-radius: 1rem;
+}
+
+.dp {
+    width: clamp(6rem,15vw,20rem);
+    height: auto;
+    border: 0.2rem solid transparent;
+    border-radius: 1rem;
+}
+
+@media (max-height:550px) {
+  .dp-container {
+    display: none !important;
+  }
+
+  .vertical-navbar {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width:768px) {
+  .vertical-navbar{
+    margin-top: 0;
+  }
+}
+
+.hamburger {
+  margin-top: 0.5rem;
+  display: flex;
+  margin-left: auto;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.hamburger:focus {
+  box-shadow: none;
+}
+
+.nav-item {
+  font-size: clamp(0.9rem,1.8vw,1.3rem);
+  line-height: clamp(1rem,4.5vh,5rem);
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-item.active{
+  color: rgb(84, 25, 140) !important;
+  font-weight: bold;}
+
+.nav-item:hover {
+  color: rgb(84, 25, 140);
+}
+
+button {
+  background-image: linear-gradient(90deg,rgb(93, 8, 68),rgb(6, 15, 91));
+  color: white;
+}
