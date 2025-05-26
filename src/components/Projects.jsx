@@ -16,7 +16,7 @@ const cardData = [
     title: 'Netflix (clone)',
     text: 'HTML, CSS, Bootstrap, React',
     image: netflix,
-    url: 'https://github.com/Nehael04/Netflix-clone.git'
+    url: 'https://github.com/Nehael04/NetflixClone.git'
   },
   {
     title: 'Factorship - W3Layouts (clone)',
@@ -74,37 +74,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-
-
-// import './Projects.css'
-// import React from 'react'
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-
-// function BasicExample() {
-//   return (
-//    <div className="main-container">
-        //     <Container className="sub-container w-100 d-flex align-items-center justify-content-center">
-        //       <div >
-        //         <div className="g-4 d-flex align-items-center justify-content-center">
-        //         {cardData.map((card, idx) => (
-        //           //  <Col className=' d-flex align-items-center justify-content-center'>
-        //            <Card className='card-container d-flex align-items-center justify-content-center' key={idx}>
-        //             <Card.Img variant="top" src={card.image} height={"auto"} max-width={"200px"}/>
-        //            <Card.Body>
-        //            <Card.Title>{card.title}</Card.Title>
-        //            <Card.Text>{card.text}</Card.Text>
-        //            <Button href={card.url}>open in Github</Button>
-        //            </Card.Body>
-        //            </Card>
-        //           //  </Col>
-        //         ))}
-        //         </div>
-        //         </div>
-        //     </Container>
-        // </div>
-//   );
-// }
-
-// export default BasicExample;
